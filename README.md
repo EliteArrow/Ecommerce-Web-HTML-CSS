@@ -10,7 +10,3 @@ Recreate the following website: [link](https://shop.polymer-project.org/), but w
 ## Requirement
 * You have require a any browser like Chrome,Firefox,safari etc.
 * Require internet connectivity.
-
-## How to run project
-* clone a repository in your system `git clone git@gitlab.com:mountblue/cohort-14-python/rakshit_sarkheliya/ecommerce-html-css.git`
-* Open `home.html` in your Brower.
