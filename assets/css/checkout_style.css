@@ -1,0 +1,155 @@
+@media all and (min-width: 20px) {
+
+    .checkout_page{
+        color: #000000;
+    }
+   
+    .check_head{
+        text-align: center;
+        padding-top: 1.2em;
+        color: #000000;
+    }
+    .check_heading{
+        font-weight: 600;
+        padding-bottom: .3em;
+    }
+    .check_sub{
+        font-weight: 500;
+        color: #000000;
+    }
+
+
+
+
+
+
+
+
+    
+
+form {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    /* background-color: #E0F2F1; */
+    /* width: 325px;
+    height: 275px; */
+    /* margin: 30px auto 0; */
+    
+    /* overflow: auto; */
+    
+    /* box-shadow: 0px 0px 8px 1px rgba(0,0,0,.75); */
+  }
+  
+  .checkout_form_head{      
+      font-size: 1em;
+      padding-top: 2em;
+  }
+  label {
+    position: relitive;
+    display: inline-block;
+    color: #000000;
+    top: 100px;
+    font-size: 1em;
+    transition: all .2s ease;
+    z-index: 10;
+    position: relative;
+    top: -30px;
+    
+  }
+  
+  .input-container {
+    width: 100%;
+    position: relative;
+    margin: 45px auto -25px;
+  }
+  
+
+  input[type="text"] {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    padding: 0 0 5px 0;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #242323;
+    outline: none;
+   
+  }
+  
+  input[type="text"]:focus ~ label, input[type="text"]:valid ~ label {
+    top: -60px;
+  }
+  
+  .form_country
+  {
+      padding-top: 3em;
+      display: flex;
+  }
+  
+  .name_one{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1em;
+
+  }
+  .country{
+      padding-top: 1em;
+      padding-right: 1em;
+  }
+  .card_detail{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 1em;
+  }
+  .order_list{
+      margin-bottom: 1.5em;
+  }
+  .order_1{
+    padding-top:.3em;
+    padding-bottom: 1em;
+  }
+  .order_name{
+      float: left;
+  }
+  .order_price{
+      float: right;
+      
+  }
+  .add_to_cart{   
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: solid 1px;
+    background-color: #AE846D;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: .2em;
+}
+.add_to_cart:hover{
+    background-color: #a38d81;
+}
+  
+}
+
+
+
+@media all and (min-width: 900px) {
+    .checkout_account{
+        text-align: left;
+        
+    }
+    .checkout_desktop{
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5em;
+    }
+
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>puma Shoes</title>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">            
+        <link rel="stylesheet" href="assets/css/checkout_style.css">    
+        <link rel="stylesheet" href="assets/css/cart_style.css">  
+        <link rel = "icon" href ="assets/image/puma_head_logo.jpg" type = "image/x-icon"> 
+    </head>
+    <body>                
+        <div class="container">
+            <div class="navbar">     
+                <div class="nav">                    
+                    <a href="home.html">
+                        <img class="puma_icon" src="assets/image/puma_logo.png" alt="puma_logo"/>                        
+                    </a>
+                        <div class="navbar_header" class="sidenav">                            
+                            <a href="home.html">Home</a>
+                            <a href="products.html">Men's Shoes</a>
+                            <a href="products.html">Women's Shoes</a>
+                            <a href="products.html">Kid's Shoes</a>                  
+                        </div>  
+                    
+                    <div class="nav_right">
+                      
+                        <span style="cursor:pointer" onclick="openNav()">
+                            <img class="nav_icon sidebar"  src="assets/image/sidebar.png" alt="puma_logo"></img>
+                        </span>
+                    </div>
+                </div>
+                
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="home.html">Home</a>
+                    <a href="products.html">Men's Shoes</a>
+                    <a href="products.html">Women's Shoes</a>
+                    <a href="products.html">Kid's Shoes</a>
+                </div>
+            
+            </div>
+
+
+            <div class="checkout_page">  
+              
+                <div>
+                    <div class="check_head">
+                        <h3 class="check_heading">Checkout</h3>
+                        <p class="check_sub">This data is for demo</p>
+                    </div>
+                </div>
+                <form>
+                    <div class="checkout_desktop">
+                    <div class="checkout_account">
+                        <h3 class="checkout_form_head">Account Information</h3>
+                        <div class="input-container">
+                        <input required type="text" />
+                        <label>Name</label>
+                        </div>
+                        
+                        <div class="input-container">
+                        <input required type="text" />
+                        <label>Email</label>
+                        </div>
+
+                        <h3 class="checkout_form_head">Shipping Address</h3>
+                        <div class="input-container">
+                        <input required type="text" />
+                        <label>Address</label>
+                        </div>
+                        
+                        <div class="input-container">
+                        <input required type="text" />
+                        <label>City</label>
+                        </div>
+                                                
+                        <div class="name_one">
+                            <div class="input-container">
+                                <input required type="text" />
+                                <label>State</label>
+                            </div>
+                            <div class="input-container">
+                                <input required type="text" />
+                                <label>Pincode</label>
+                            </div>                        
+                        </div>                        
+                        
+                        <div class="form_country">
+                            <p class="country"> Countery</p>
+                            <select name="country" class="selecter">                                
+                                <option value="Us">United States</option>
+                                <option value="Canada">Canada</option>                            
+                            </select>
+                        </div>
+
+
+                    </div>                    
+                    <div class="checkout_payment">
+                        <h3 class="checkout_form_head">Payment Method</h3>
+                        <div class="input-container">
+                            <input required type="text" />
+                            <label>CardHolder Name</label>
+                        </div>
+                        <div class="input-container">
+                            <input required type="text" />
+                            <label>Card Number</label>
+                        </div>
+                        <div class="card_detail">
+                            
+                            <div class="input-container">
+                                <input required type="text" />
+                                <label>Date</label>
+                            </div>
+                            <div class="input-container">
+                                <input required type="text" />
+                                <label>Month</label>
+                            </div>
+                            <div class="input-container">
+                                <input required type="text" />
+                                <label>CVV</label>
+                            </div>
+                        </div>
+                        <h3 class="checkout_form_head">Order Summary</h3>
+                        <div class="order_list">
+                            <div class="order_1">                            
+                                    <p class="order_name">Anvil L/S Crew Neck - Grey</p>                            
+                                    <p class="order_price">$132.90</p>                            
+                            </div>
+                            <div class="order_1">                            
+                                <p class="order_name">Anvil L/S Crew Neck - Grey</p>                            
+                                <p class="order_price">$132.90</p>                            
+                            </div>
+                            <div class="order_1">                            
+                                <p class="order_name">Anvil L/S Crew Neck - Grey</p>                            
+                                <p class="order_price">$132.90</p>                            
+                            </div>
+                        </div>
+                        <div class="order_1">                            
+                            <p class="order_name"><strong>Total</strong></p>                            
+                            <p class="order_price"><strong>$132.90</strong></p>
+                        </div>
+                        <a href="home.html"><p class="add_to_cart">PEOCEED TO CHECKOUT</p></a>                                     
+                    </div>
+                    </div>
+
+
+                    
+
+                  </form>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+            
+        </div>   
+        <script src="assets/js/script.js"></script>    
+    </body>
+</html>

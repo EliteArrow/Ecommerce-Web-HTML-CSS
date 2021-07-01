@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@media all and (min-width: 20px) {
+    .container{
+        margin-left: 0em;
+        margin-right: 0em;
+        font-family: open sans,sans-serif;
+        background-color: #ffffff;
+    } 
+    .navbar{
+        
+        background-color: #000000;
+        overflow: hidden;
+        font-size:2.13em;
+        
+    }
+    .puma_icon{
+        
+        height: 1.2em;    
+        color:#ffffff;
+        text-align: center;
+        padding-left: 1em;
+        padding-top: .2em;
+        padding-bottom: .2em;
+        /* vertical-align: middle; */
+    }
+    
+    
+    .nav{
+      display: grid;
+      grid-template-columns: 60% 40% ;
+    }
+    
+    .nav_icon{
+        height: .7em;
+        color:#ffffff;
+        text-align: center;
+        padding-right: .2em;
+        
+    }
+    .nav_right{
+      text-align: right;
+      padding-top: .2em;
+    }
+  
+    .sidebar{
+        padding-right: .5em;
+        cursor:pointer;
+    }
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #000000;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: .4em;
+        color: #f0f0f0;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #bbbbbb;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      
+      .trand_side{
+        font-size: 0;          
+        
+      }
+      .main_trand_img{
+        width: 100%;        
+        height: auto;                 
+        
+      }
+      .trand{
+          text-align: center;
+          padding-bottom: 5em;
+      }
+      .sub_title{
+          font-weight: 600;
+          font-size: 1.4em;
+          padding-top: 2em;
+          padding-bottom: 1em;
+      }
+      .button{
+          text-decoration: none;
+      }
+      .button a{
+        color:#000000;
+        border: solid 1px;
+        padding:.5em;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button a:hover{
+        color:#ffffff;
+        background-color: #000000;    
+        border-color:#ffffff;
+        
+        padding:.5em;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .category_heading{
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding-bottom: 1.4em;
+        
+        
+      }
+      .category_img{
+        
+          display:grid;
+          grid-gap: 5em;
+          padding-bottom: 5em;
+          margin-left: 6%;
+          margin-right: 6%;
+      }
+      .kid_collection{
+        text-align: center;
+        padding-bottom: 5em;
+        margin-left: 6%;
+        margin-right: 6%; 
+        
+      }
+      .sneaker{
+        text-align: center;
+        padding-bottom: 5em;
+        margin-left: 6%;
+        margin-right: 6%; 
+      }
+      .sneaker_grid{
+        display: grid;
+       
+      }
+      .sneaker_btn{
+        padding-bottom: 1em;
+      }
+      
+    
+      
+}
+@media all and (max-width: 899px) {
+  .navbar_header{
+    display: none;
+  }
+
+  .kid_heading{
+    display: none;
+  }
+  .trand_heading{
+    display: none;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+@media all and (min-width: 900px) {
+
+  .nav{
+    display: grid;
+    grid-template-columns: 8% 82% 10%;
+    text-align: left;
+  }
+  .nav_right{
+    text-align: right;
+    padding-top: .2em;
+  }
+
+
+  
+  
+  .navbar_header a{
+    color:#ffffff;
+    font-size: .5em; 
+    padding-left: .8em;
+  }
+  .navbar_header a:hover{
+    color:#bbbbbb;
+    font-size: .5em; 
+  }
+  .navbar{
+        
+    background-color: #000000;
+    overflow: hidden;
+    font-size:2.5em;
+    
+}
+
+
+  .puma_icon{
+        
+    height: 1em;    
+    color:#ffffff;
+    text-align: center;
+    padding-left: .8em;
+    vertical-align: middle;
+}
+
+  .sidebar{
+          display: none;
+          padding-right: .5em;
+          cursor:none;
+         
+
+  }
+
+
+  .trand_img{
+    width: 100%;        
+    height: auto; 
+    content: url('../../assets/image/trand_img.gif');          
+    
+  }
+  .category_img{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0em;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .collection_mobile{
+    display:none
+  }
+  
+  .kid_collection_banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .kid_heading {
+    font-weight: 700;     
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, -70%);
+  }
+
+  .kid_head_name{
+    padding:.5em;
+   }
+  .kid_banner_btn a{
+    font-weight: 600;
+    color:#000000;
+    background-color: #ffffff;
+    border: none;
+    padding:.8em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .kid_banner_btn a:hover{
+    color: #000000;;
+    background-color: #eeeeee;
+  
+    
+    padding:.8em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .img_kid{
+
+    content: url('../../assets/image/kid.jpeg');
+    
+  }
+  .sneaker{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+
+
+
+
+  .trand_collection_banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .trand_heading {
+    font-weight: 700;     
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(2%, -70%);
+  }
+
+  .trand_head_name{
+    
+    padding:.5em;
+    padding-bottom: 1em;
+    
+   }
+  .trand_banner_btn a{
+    font-weight: 600;
+    color:#000000;
+    background-color: #ffffff;
+    border: none;
+    padding:.8em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .trand_banner_btn a:hover{
+    color: #000000;;
+    background-color: #eeeeee;
+  
+    
+    padding:.8em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+}
+

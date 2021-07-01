@@ -1,0 +1,129 @@
+@media all and (min-width: 20px) {
+    .cart{
+        color: #000000;
+    }
+    .cart_banner{
+        text-align: center;
+        background-color: #EEEEEE;
+    }
+    .cart_main_header{
+        padding:2.4em;
+        font-size: .8em;
+        font-weight: 600;
+    }
+    .cart_detail{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    .cart_item{
+        padding-top: 1em;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cart_image{
+        width: 100%;
+        height: auto;
+    }
+    .cart_item_detail{
+        padding-top: 1em;
+    }
+    .cart_heading{        
+        padding-bottom: 1em;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    .shoes_detail{
+        padding-top: 1.5em;
+    }
+    .shoes_sub_head{
+        padding-top: .5em;
+        font-size: .9em;
+    }
+    .shoes_size_select{
+        padding-top: .5em;
+    }
+    .selecter{
+        padding:1em;
+        font-size: .9em;
+    }
+    .price{
+        padding-top: 1em;
+    }
+    .price_color{
+        color: #ba2026;
+    }
+    .checkout_section{
+        /* padding-top: .5em; */
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .item_total{
+        margin-top: 1em;
+        padding-top: 1em;
+        text-align:right;
+        padding-right: 2em;
+        font-size: 1.2em;
+    }
+    .btn_checkout{   
+        position: sticky;
+        margin-top: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border: solid 1px;
+        background-color: #AE846D;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: .2em;
+    }
+    .btn_checkout:hover{
+        background-color: #a38d81;
+    }
+    .cart_btn{
+        display: flex;
+    }
+    .btn_item{
+        margin-top: 1em;
+        text-decoration: none;                
+        padding:1em;
+        margin: 1em;
+        margin-left: 0em;
+        border:1px solid;
+        color: #000000;
+        border-color: #000000;
+    }
+    .btn_item:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+}
+
+@media all and (min-width: 900px) {
+    .cart_detail{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .cart_item_detail{
+        text-align: left;
+        
+    }
+    .cart_image{
+        width: 90%;
+    }
+}
+@media all and (min-width: 1200px) {
+    .cart_detail{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .cart_item_detail{
+        text-align: left;
+        
+    }
+    .cart_image{
+        width: 80%;
+    }
+}
